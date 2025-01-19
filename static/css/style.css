@@ -1,0 +1,194 @@
+/* Väripaletti */
+:root {
+    --dark-violet: #4B0082;
+    --black: #000000;
+    --gold: #FFD700;
+    --silver: #C0C0C0;
+    --midnight-blue: #003366;
+    --ruby-red: #8B0000;
+    --white: #FFFFFF;
+}
+
+/* Kehon yleinen tausta */
+body {
+    background: radial-gradient(circle, #4B0082, #000000); /* Violetti gradientti */
+    color: #C0C0C0; /* Tekstin väri (hopea) */
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+/* Otsikot */
+h1, h2 {
+    font-family: 'Cinzel', serif;
+    color: var(--gold);
+    text-shadow: 0 0 10px var(--ruby-red);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px; /* Pääotsikon fonttikoko */
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 28px; /* Alatason otsikon fonttikoko */
+}
+
+/* Kappaleet ja tekstisisältö */
+p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--silver);
+}
+
+/* Kysymysblokin tyyli */
+.question-block {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.6); /* Läpinäkyvä tausta */
+    border: 1px solid var(--gold);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+/* Radiopainikkeet */
+input[type="radio"] {
+    display: none; /* Piilotetaan oletuspainike */
+}
+
+input[type="radio"] + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    color: var(--silver);
+    font-size: 18px;
+}
+
+input[type="radio"] + label:before {
+    content: '☆'; /* Tähti-symboli */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    color: var(--silver);
+}
+
+input[type="radio"]:checked + label:before {
+    content: '★'; /* Valittu tähti */
+    color: var(--gold);
+}
+
+/* Painikkeet */
+button, a {
+    background-color: var(--midnight-blue);
+    border: 2px solid var(--gold);
+    color: var(--gold);
+    font-family: 'Cinzel', serif;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+button:hover, a:hover {
+    background-color: var(--gold);
+    color: var(--black);
+    box-shadow: 0 0 15px var(--gold);
+}
+
+/* Tarot-kortti */
+.tarot-card {
+    background-color: rgba(0, 0, 0, 0.8); /* Läpinäkyvä musta tausta */
+    border: 2px solid var(--gold);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    margin-top: 20px;
+}
+
+.tarot-card img {
+    width: 200px;
+    height: auto;
+    border: 2px solid var(--ruby-red);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tarot-card h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    color: var(--gold);
+    margin-bottom: 10px;
+}
+
+.tarot-card p {
+    color: var(--silver);
+    font-size: 18px;
+}
+/* Esittelyteksti */
+.intro {
+    background-color: rgba(0, 0, 0, 0.7); /* Tumma läpinäkyvä tausta */
+    border: 2px solid var(--gold); /* Kultainen reunus */
+    border-radius: 10px; /* Pyöristetyt reunat */
+    padding: 20px; /* Sisennys */
+    margin: 20px auto; /* Ylä- ja alareunan väli */
+    text-align: center;
+    color: var(--silver); /* Hopeinen teksti */
+    max-width: 800px; /* Maksimileveys */
+}
+
+/* Esittelytekstin otsikko */
+.intro h2 {
+    font-family: 'Cinzel', serif; /* Otsikkofontti */
+    color: var(--gold); /* Kultainen teksti */
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px var(--ruby-red); /* Pieni hehku */
+}
+
+/* Esittelytekstin kappaleet */
+.intro p {
+    font-family: 'Lora', serif; /* Leipätekstin fontti */
+    font-size: 18px; /* Fontin koko */
+    line-height: 1.6; /* Riviväli */
+    margin: 10px 0;
+}
+.result-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    color: var(--silver);
+}
+
+.result-table th, .result-table td {
+    padding: 10px;
+    border: 1px solid var(--gold);
+}
+
+.result-table th {
+    background-color: rgba(255, 215, 0, 0.2); /* Himmeä kultainen tausta */
+    font-family: 'Cinzel', serif;
+}
+
+.result-table td {
+    font-family: 'Lora', serif;
+}
+
+.result-table span {
+    font-weight: bold;
+}

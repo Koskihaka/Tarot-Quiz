@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot-korttien viesti</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Esittelyteksti -->
+    <div class="intro">
+        <h2>Tervetuloa Tarot-korttien viestin äärelle!</h2>
+        <p>
+            Mitä kortit kertovat sinulle tänään?
+            Vastaa kolmeen Tarot-aiheiseen kysymykseen oppiaksesi lisää Suuren Arkanan korteista.
+            Kun vastaat oikein, päivän Tarot-korttisi johdattaa ajatuksiasi ja antaa inspiraatiota päivääsi. 
+        </p>
+    </div>
+
+    <!-- Otsikko -->
+    <h1>Kysymykset</h1>
+
+    <!-- Kyselylomake -->
+    <form method="POST" action="/">
+        {% for index, question in enumerate(questions) %}
+        <div class="question-block">
+            <!-- Kysymyksen teksti -->
+            <p><strong>{{ question.question }}</strong></p>
+            
+            <!-- Monivalintavaihtoehdot -->
+            {% for option_index, option in enumerate(question.options) %}
+            <div class="option">
+                <input type="radio" 
+                       id="q{{ index + 1 }}_{{ option_index }}" 
+                       name="q{{ index + 1 }}" 
+                       value="{{ option }}">
+                <label for="q{{ index + 1 }}_{{ option_index }}">{{ option }}</label>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+        
+        <!-- Lähetä-painike -->
+        <button type="submit" class="submit-button">Tarkista vastaukset</button>
+    </form>
+
+    <!-- Viittaus JavaScript-tiedostoon -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+

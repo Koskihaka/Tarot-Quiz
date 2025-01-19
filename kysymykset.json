@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Kuinka monta korttia on Major Arcana -pakassa?",
+        "options": ["20", "21", "22"],
+        "answer": "22"
+    },
+    {
+        "question": "Mikä on The Fool -kortin numero?",
+        "options": ["0", "1", "2"],
+        "answer": "0"
+    },
+    {
+        "question": "Mikä Tarot-kortti edustaa äkillistä muutosta tai 'romahdusta'?",
+        "options": ["The Star", "The Tower", "The Moon"],
+        "answer": "The Tower"
+    },
+    {
+        "question": "Mikä Tarot-kortti kuvastaa iloa ja positiivisuutta?",
+        "options": ["The Sun", "The Lovers", "The Emperor"],
+        "answer": "The Sun"
+    },
+    {
+        "question": "Tarot-kortti 'The Moon' liitetään usein alitajuntaan. (Totta vai Tarua)",
+        "options": ["Totta", "Tarua"],
+        "answer": "Totta"
+    },
+    {
+        "question": "Mikä on englanniksi Suuren Arkanan (Major Arcana) kortti numero XXI?",
+        "options": ["The World", "The Wheel of Fortune", "The Chariot"],
+        "answer": "The World"
+    },
+    {
+        "question": "Mikä Tarot-kortti edustaa voimaa ja rohkeutta yhdistettynä lempeyteen?",
+        "options": ["Strength", "The Emperor", "Justice"],
+        "answer": "Strength"
+    },
+    {
+        "question": "Mikä kortti kuvastaa uuden alun ja puhtaan energian teemoja?",
+        "options": ["The Fool", "The Magician", "The Star"],
+        "answer": "The Fool"
+    },
+    {
+        "question": "Mikä on The High Priestess -kortin keskeinen symboliikka?",
+        "options": ["Rationaalinen ajattelu", "Intuitio ja salaisuudet", "Valta ja järjestys"],
+        "answer": "Intuitio ja salaisuudet"
+    },
+    {
+        "question": "Mikä Tarot-kortti symboloi tasapainoa ja kärsivällisyyttä?",
+        "options": ["The Hanged Man", "Temperance", "The Devil"],
+        "answer": "Temperance"
+    },
+    {
+        "question": "Mikä Tarot-kortti kuvastaa menetystä ja päästämistä irti?",
+        "options": ["Death", "The Lovers", "The Empress"],
+        "answer": "Death"
+    },
+    {
+        "question": "Mikä kortti liitetään usein kohtaloon ja elämän syklisiin muutoksiin?",
+        "options": ["The Wheel of Fortune", "The Star", "The World"],
+        "answer": "The Wheel of Fortune"
+    },
+    {
+        "question": "Kuka tai mikä The Magician -kortissa hallitsee kaikkia elementtejä?",
+        "options": ["Miekka", "The Magician", "Taikakäärme"],
+        "answer": "The Magician"
+    },
+    {
+        "question": "Mikä kortti symboloi vetäytymistä ja sisäistä etsintää?",
+        "options": ["The Hermit", "The Chariot", "Strength"],
+        "answer": "The Hermit"
+    },
+    {
+        "question": "Mikä Tarot-kortti edustaa valinnan tekemistä ja ihmissuhteita?",
+        "options": ["The Lovers", "The Moon", "The Hierophant"],
+        "answer": "The Lovers"
+    },
+    {
+        "question": "Mikä kortti kuvastaa suurta vastuuta ja järjestystä?",
+        "options": ["The Emperor", "The High Priestess", "The Sun"],
+        "answer": "The Emperor"
+    }
+]

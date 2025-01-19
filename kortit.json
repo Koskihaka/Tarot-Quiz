@@ -1,0 +1,112 @@
+[
+    {
+        "Kortti": "The Fool (0)",
+        "Merkitys": "Uuden alun kortti. Hyppää rohkeasti seikkailuun!",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/RWS_Tarot_00_Fool.jpg/800px-RWS_Tarot_00_Fool.jpg"
+    },
+    {
+        "Kortti": "The Magician (I)",
+        "Merkitys": "Tahdonvoima, luovuus – sinulla on kaikki tarvittavat työkalut.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/RWS_Tarot_01_Magician.jpg/800px-RWS_Tarot_01_Magician.jpg"
+    },
+    {
+        "Kortti": "The High Priestess (II)",
+        "Merkitys": "Intuition ja salaisuuksien kortti. Kuuntele sisäistä viisauttasi.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/RWS_Tarot_02_High_Priestess.jpg/800px-RWS_Tarot_02_High_Priestess.jpg"
+    },
+    {
+        "Kortti": "The Empress (III)",
+        "Merkitys": "Kasvu, luovuus, äidillinen hoiva. Tänään saatat korjata aiemman työn tuloksia.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/RWS_Tarot_03_Empress.jpg/800px-RWS_Tarot_03_Empress.jpg"
+    },
+    {
+        "Kortti": "The Emperor (IV)",
+        "Merkitys": "Auktoriteetti, järjestys, vakaus. Ota johtoasema ja aseta selkeät rajat.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/RWS_Tarot_04_Emperor.jpg/800px-RWS_Tarot_04_Emperor.jpg"
+    },
+    {
+        "Kortti": "The Hierophant (V)",
+        "Merkitys": "Perinteet, opetus, henkinen ohjaus. Löydät vastaukset luottamalla opastukseen.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/RWS_Tarot_05_Hierophant.jpg/800px-RWS_Tarot_05_Hierophant.jpg"
+    },
+    {
+        "Kortti": "The Lovers (VI)",
+        "Merkitys": "Valinnat, rakkaus, harmonia. Merkittävät päätökset ja ihmissuhteet korostuvat.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/RWS_Tarot_06_Lovers.jpg/800px-RWS_Tarot_06_Lovers.jpg"
+    },
+    {
+        "Kortti": "The Chariot (VII)",
+        "Merkitys": "Voitto, päättäväisyys, eteenpäin meneminen. Älä pelkää ottaa ohjaksia käsiisi.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/RWS_Tarot_07_Chariot.jpg/800px-RWS_Tarot_07_Chariot.jpg"
+    },
+    {
+        "Kortti": "Strength (VIII)",
+        "Merkitys": "Sisäinen voima, lempeä rohkeus. Selvität haasteet itsevarmuudella ja lempeydellä.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/RWS_Tarot_08_Strength.jpg/800px-RWS_Tarot_08_Strength.jpg"
+    },
+    {
+        "Kortti": "The Hermit (IX)",
+        "Merkitys": "Vetäytyminen, sisäinen etsintä. Aika rauhoittumiselle ja oman polun tutkiskelulle.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/RWS_Tarot_09_Hermit.jpg/800px-RWS_Tarot_09_Hermit.jpg"
+    },
+    {
+        "Kortti": "Wheel of Fortune (X)",
+        "Merkitys": "Muutos, kohtalo, onnenpyörä. Elämän syklit vaihtuvat, ole valmis käänteisiin.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RWS_Tarot_10_Wheel_of_Fortune.jpg/800px-RWS_Tarot_10_Wheel_of_Fortune.jpg"
+    },
+    {
+        "Kortti": "Justice (XI)",
+        "Merkitys": "Oikeudenmukaisuus, tasapaino, rehellisyys. Pidä huolta, että päätöksesi ovat tasapainossa.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/RWS_Tarot_11_Justice.jpg/800px-RWS_Tarot_11_Justice.jpg"
+    },
+    {
+        "Kortti": "The Hanged Man (XII)",
+        "Merkitys": "Luopuminen, uuden näkökulman etsiminen. Tauko tai uhraus voi tuoda selkeyttä.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/RWS_Tarot_12_Hanged_Man.jpg/800px-RWS_Tarot_12_Hanged_Man.jpg"
+    },
+    {
+        "Kortti": "Death (XIII)",
+        "Merkitys": "Muutosten kortti, vanhan loppu ja uuden alku. Uudistuminen on väistämätöntä.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/RWS_Tarot_13_Death.jpg/800px-RWS_Tarot_13_Death.jpg"
+    },
+    {
+        "Kortti": "Temperance (XIV)",
+        "Merkitys": "Tasapaino, kärsivällisyys, sopusointu. Yhdistä erilaisia asioita luovasti.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/RWS_Tarot_14_Temperance.jpg/800px-RWS_Tarot_14_Temperance.jpg"
+    },
+    {
+        "Kortti": "The Devil (XV)",
+        "Merkitys": "Sidokset, houkutukset, sisäiset esteet. Tarkastele, mikä pidättelee sinua.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/RWS_Tarot_15_Devil.jpg/800px-RWS_Tarot_15_Devil.jpg"
+    },
+    {
+        "Kortti": "The Tower (XVI)",
+        "Merkitys": "Äkillinen muutos, romahdus, herääminen. Jotain vanhaa sortuu, jotta uutta voi syntyä.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/RWS_Tarot_16_Tower.jpg/800px-RWS_Tarot_16_Tower.jpg"
+    },
+    {
+        "Kortti": "The Star (XVII)",
+        "Merkitys": "Toivo, inspiraatio, unelmat. Usko parempaan tulevaisuuteen ja inspiroidu.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/RWS_Tarot_17_Star.jpg/800px-RWS_Tarot_17_Star.jpg"
+    },
+    {
+        "Kortti": "The Moon (XVIII)",
+        "Merkitys": "Alitajunta, illuusiot, unet. Luota intuitioosi, vaikka kaikki ei ole vielä selvää.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/RWS_Tarot_18_Moon.jpg/800px-RWS_Tarot_18_Moon.jpg"
+    },
+    {
+        "Kortti": "The Sun (XIX)",
+        "Merkitys": "Ilo, valo, positiivisuus. Kirkkautta ja iloa on tulossa elämääsi.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RWS_Tarot_19_Sun.jpg/800px-RWS_Tarot_19_Sun.jpg"
+    },
+    {
+        "Kortti": "Judgement (XX)",
+        "Merkitys": "Uudelleenarviointi, herääminen, totuus. Tärkeät päätökset ja oivallukset kirkastuvat.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RWS_Tarot_20_Judgement.jpg/800px-RWS_Tarot_20_Judgement.jpg"
+    },
+    {
+        "Kortti": "The World (XXI)",
+        "Merkitys": "Täyttymys, kokonaisuus, saavutus. Syklin lopetus ja uuden aikakauden alku.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/RWS_Tarot_21_World.jpg/800px-RWS_Tarot_21_World.jpg"
+    }
+]

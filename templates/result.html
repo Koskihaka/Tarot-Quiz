@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visan tulokset</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Visan tulokset</h1>
+
+    <!-- Näytä yksityiskohtaiset tulokset -->
+    <h2>Tulokset:</h2>
+    <table class="result-table">
+        <thead>
+            <tr>
+                <th>Kysymys</th>
+                <th>Sinun vastauksesi</th>
+                <th>Oikea vastaus</th>
+                <th>Tulos</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for index, question in enumerate(questions) %}
+            <tr>
+                <td>{{ question['question'] }}</td>
+                <td>{{ user_answers['q' + loop.index|string] }}</td>
+                <td>{{ question['answer'] }}</td>
+                <td>
+                    {% if user_answers['q' + loop.index|string] == question['answer'] %}
+                    <span style="color: green;">Oikein</span>
+                    {% else %}
+                    <span style="color: red;">Väärin</span>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- Näytä Tarot-kortti, jos käyttäjä vastasi kaikkiin oikein -->
+    {% if card %}
+        <h2>Onnittelut! Päivän Tarot-korttisi on:</h2>
+        <div class="tarot-card">
+            <h3>{{ card.Kortti }}</h3>
+            <img src="{{ card.image_url }}" alt="{{ card.Kortti }}" style="width: 200px; height: auto; border: 2px solid #FFD700; border-radius: 10px;">
+            <p><strong>Merkitys:</strong> {{ card.Merkitys }}</p>
+        </div>
+    {% else %}
+        <p>Yritä uudelleen nähdäksesi päivän Tarot-korttisi!</p>
+    {% endif %}
+
+    <!-- Linkki uuteen tietovisaan -->
+    <a href="/">Aloita uusi visa</a>
+</body>
+</html>
